@@ -1,0 +1,24 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Sunny Garden coloring page preview</title>
+  <desc id="desc">Line art preview with sun, flowers, and a garden path.</desc>
+  <rect width="300" height="400" fill="#fffef5"/>
+  <circle cx="230" cy="70" r="32" fill="none" stroke="#3d3529" stroke-width="5"/>
+  <g stroke="#3d3529" stroke-width="4" stroke-linecap="round">
+    <path d="M230 18v22M230 100v22M178 70h22M260 70h22M194 34l16 16M250 90l16 16M266 34l-16 16M210 90l-16 16"/>
+    <path d="M38 332c40-35 72-35 112 0s72 35 112 0"/>
+    <path d="M88 312c8-64 22-92 43-122M188 316c-9-72-23-104-45-130"/>
+  </g>
+  <g fill="none" stroke="#3d3529" stroke-width="4">
+    <circle cx="125" cy="160" r="18"/>
+    <circle cx="105" cy="178" r="18"/>
+    <circle cx="145" cy="178" r="18"/>
+    <circle cx="125" cy="198" r="18"/>
+    <circle cx="125" cy="179" r="10"/>
+    <circle cx="184" cy="190" r="15"/>
+    <circle cx="166" cy="205" r="15"/>
+    <circle cx="202" cy="205" r="15"/>
+    <circle cx="184" cy="222" r="15"/>
+    <circle cx="184" cy="205" r="8"/>
+  </g>
+  <path d="M70 360c45-34 115-34 160 0" fill="none" stroke="#3d3529" stroke-width="4" stroke-linecap="round"/>
+</svg>

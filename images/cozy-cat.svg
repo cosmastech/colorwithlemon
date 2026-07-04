@@ -1,0 +1,22 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cozy Cat coloring page preview</title>
+  <desc id="desc">Line art preview with a smiling cat and cozy blanket.</desc>
+  <rect width="300" height="400" fill="#fffef5"/>
+  <g fill="none" stroke="#3d3529" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="150" cy="150" r="72"/>
+    <path d="M95 105 78 50l49 35"/>
+    <path d="M205 105 222 50l-49 35"/>
+    <path d="M68 292c54-44 110-44 164 0"/>
+    <path d="M62 322c62-30 114-30 176 0"/>
+    <path d="M92 176H52M98 192H58M208 176h40M202 192h40"/>
+  </g>
+  <g fill="#3d3529">
+    <circle cx="126" cy="142" r="8"/>
+    <circle cx="174" cy="142" r="8"/>
+  </g>
+  <g fill="none" stroke="#3d3529" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M142 164c4 6 12 6 16 0"/>
+    <path d="M150 170c-8 12-21 15-32 5"/>
+    <path d="M150 170c8 12 21 15 32 5"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Starry Night coloring page preview</title>
+  <desc id="desc">Line art preview with a moon, stars, and rolling hills.</desc>
+  <rect width="300" height="400" fill="#fffef5"/>
+  <g fill="none" stroke="#3d3529" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m150 54 13 40h42l-34 25 13 40-34-25-34 25 13-40-34-25h42z"/>
+    <path d="M226 132c-31 22-75 0-75-38 0-19 10-36 26-46-5 10-5 22 0 34 9 23 30 38 49 50Z"/>
+    <path d="M28 292c52-46 98-54 146-24 42 26 72 23 98-5"/>
+    <path d="M55 340c58-32 132-32 190 0"/>
+  </g>
+  <g fill="#3d3529">
+    <circle cx="62" cy="76" r="6"/>
+    <circle cx="236" cy="72" r="5"/>
+    <circle cx="52" cy="170" r="4"/>
+    <circle cx="250" cy="194" r="4"/>
+    <circle cx="91" cy="226" r="5"/>
+  </g>
+</svg>

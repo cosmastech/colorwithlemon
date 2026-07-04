@@ -1,0 +1,24 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lemon Friends coloring page preview</title>
+  <desc id="desc">Line art preview with two smiling lemon characters.</desc>
+  <rect width="300" height="400" fill="#fffef5"/>
+  <g fill="none" stroke="#3d3529" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="110" cy="145" rx="48" ry="62" transform="rotate(-12 110 145)"/>
+    <ellipse cx="190" cy="145" rx="48" ry="62" transform="rotate(12 190 145)"/>
+    <path d="M86 94c-16-12-23-30-21-52 22 5 38 17 47 37"/>
+    <path d="M214 94c16-12 23-30 21-52-22 5-38 17-47 37"/>
+    <path d="M78 256c34-24 72-24 106 0s58 24 86 0"/>
+    <path d="M150 206v86"/>
+    <path d="M110 248h80"/>
+  </g>
+  <g fill="#3d3529">
+    <circle cx="94" cy="135" r="6"/>
+    <circle cx="122" cy="135" r="6"/>
+    <circle cx="178" cy="135" r="6"/>
+    <circle cx="206" cy="135" r="6"/>
+  </g>
+  <g fill="none" stroke="#3d3529" stroke-width="4" stroke-linecap="round">
+    <path d="M93 162c10 10 22 10 32 0"/>
+    <path d="M175 162c10 10 22 10 32 0"/>
+  </g>
+</svg>
