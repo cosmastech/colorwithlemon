@@ -1,44 +1,23 @@
 window.COLORING_PAGES = [
   {
-    title: "Sunny Garden",
-    description: "Flowers, sunshine, and a cozy little garden scene.",
-    thumbnail: "images/sunny-garden.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["flowers", "sunny"]
+    title: "Butterfly",
+    description: "A printable butterfly coloring page ready for bright colors.",
+    thumbnail: "images/butterfly-000.png",
+    pdf: "pdfs/butterfly-000.pdf",
+    tags: ["butterfly", "printable"]
   },
   {
-    title: "Lemon Friends",
-    description: "Cheerful lemon pals ready for bright colors.",
-    thumbnail: "images/lemon-friends.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["cute", "lemons"]
+    title: "Stained Glass Butterfly",
+    description: "A butterfly design with stained glass shapes and patterns.",
+    thumbnail: "images/stained-glass-butterfly.png",
+    pdf: "pdfs/stained-glass-butterfly.pdf",
+    tags: ["butterfly", "stained glass"]
   },
   {
-    title: "Woodland Walk",
-    description: "A simple forest adventure with trees and hills.",
-    thumbnail: "images/woodland-walk.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["forest", "nature"]
-  },
-  {
-    title: "Starry Night",
-    description: "Stars, moonlight, and a calm bedtime sky.",
-    thumbnail: "images/starry-night.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["stars", "dreamy"]
-  },
-  {
-    title: "Butterfly Meadow",
-    description: "A spring meadow with a butterfly centerpiece.",
-    thumbnail: "images/butterfly-meadow.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["butterfly", "spring"]
-  },
-  {
-    title: "Cozy Cat",
-    description: "A sweet cat friend for a relaxing coloring session.",
-    thumbnail: "images/cozy-cat.svg",
-    pdf: "pdfs/sample-coloring-page.pdf",
-    tags: ["cat", "cozy"]
+    title: "Sunflower Wooden Picture",
+    description: "A warm sunflower-themed coloring page with a rustic feel.",
+    thumbnail: "images/sunflow-wooden-picture.png",
+    pdf: "pdfs/sunflow-wooden-picture.pdf",
+    tags: ["sunflower", "nature"]
   }
 ];
