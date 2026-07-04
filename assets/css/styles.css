@@ -423,109 +423,6 @@ h1 {
   color: var(--ink-soft);
 }
 
-.section-collab {
-  padding-bottom: 5rem;
-}
-
-.collab-card {
-  display: grid;
-  gap: 1.4rem;
-  border: 2px solid var(--lemon-soft);
-  border-radius: calc(var(--radius) + 8px);
-  background: linear-gradient(135deg, var(--white), var(--lemon-light));
-  padding: clamp(1.25rem, 4vw, 2.6rem);
-  box-shadow: 0 16px 42px var(--shadow-soft);
-}
-
-.collab-copy {
-  max-width: 760px;
-  color: var(--ink-soft);
-  font-size: 1.04rem;
-}
-
-.collab-steps {
-  display: grid;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.collab-steps li {
-  border-radius: var(--radius-small);
-  background: var(--white);
-  padding: 1.1rem;
-  box-shadow: 0 4px 16px var(--shadow-soft);
-}
-
-.step-number {
-  display: grid;
-  width: 36px;
-  height: 36px;
-  margin-bottom: 0.75rem;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--lemon-bright);
-  font-family: "Fredoka", system-ui, sans-serif;
-  font-weight: 600;
-}
-
-.collab-steps h3 {
-  margin-bottom: 0.35rem;
-}
-
-.collab-steps p {
-  margin-bottom: 0;
-  color: var(--ink-soft);
-  font-size: 0.92rem;
-}
-
-.collab-visual {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  flex-wrap: wrap;
-  padding-top: 0.4rem;
-}
-
-.collab-visual span,
-.collab-visual strong {
-  display: grid;
-  width: 76px;
-  height: 92px;
-  place-items: center;
-  border: 2px solid var(--ink);
-  border-radius: 12px;
-  background: var(--white);
-  font-size: 0.72rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.collab-visual span:nth-child(1) {
-  background: #ffe0e0;
-}
-
-.collab-visual span:nth-child(2) {
-  background: #e0f0ff;
-}
-
-.collab-visual span:nth-child(3) {
-  background: #e8ffe0;
-}
-
-.collab-visual span:nth-child(4) {
-  background: #f0e0ff;
-}
-
-.collab-visual strong {
-  width: 92px;
-  height: 112px;
-  border-color: var(--lemon-deep);
-  background: linear-gradient(135deg, #ffe0e0 25%, #e0f0ff 25% 50%, #e8ffe0 50% 75%, #f0e0ff 75%);
-}
-
 .site-footer {
   background: var(--ink);
   color: var(--lemon-light);
@@ -573,10 +470,6 @@ h1 {
 @media (min-width: 760px) {
   .hero-grid {
     grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.72fr);
-  }
-
-  .collab-steps {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   .footer-inner {
