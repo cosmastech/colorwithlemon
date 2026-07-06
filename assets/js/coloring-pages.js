@@ -19,5 +19,12 @@ window.COLORING_PAGES = [
     thumbnail: "images/sunflow-wooden-picture.png",
     pdf: "pdfs/sunflow-wooden-picture.pdf",
     tags: ["sunflower", "nature"]
+  },
+  {
+    title: "Sunflower With Background",
+    description: "A cheerful sunflower coloring page with a full background scene.",
+    thumbnail: "images/sunflower-with-background.png",
+    pdf: "pdfs/sunflower-with-background.pdf",
+    tags: ["sunflower", "nature"]
   }
 ];
