@@ -72,6 +72,7 @@ Edit `assets/js/coloring-pages.js`. **Prepend** the new object at the **start** 
 - Derive `title` from the slug unless the user provides one.
 - Keep `description` short and family-friendly (still stored; not rendered in the gallery UI).
 - Prefer 1–2 simple tags (e.g. `["sunflower", "nature"]`).
+- Bump the `?v=` query string on both gallery script tags in `index.html` so clients fetch the updated list.
 
 
 ### 4. Commit behavior
@@ -95,4 +96,6 @@ for pdf in pdfs/*.pdf; do
 done
 ```
 
-Still add each missing gallery entry by hand in `coloring-pages.js`.
+Still add each missing gallery entry by hand in `coloring-pages.js` (**prepend**, newest first).
+
+After changing gallery JS, bump the `?v=` query string on the script tags in `index.html` so browsers skip the cached file.
