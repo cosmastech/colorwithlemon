@@ -34,7 +34,7 @@ There is no build step. GitHub Pages can serve this directly from the repo root.
 
 3. Open `assets/js/coloring-pages.js`.
 
-4. Copy one existing entry and paste it into the list.
+4. Copy one existing entry and **paste it at the top of the list** (newest pages show left-most).
 
    Example:
 
@@ -45,10 +45,10 @@ There is no build step. GitHub Pages can serve this directly from the repo root.
      thumbnail: "images/cozy-dragon.png",
      pdf: "pdfs/cozy-dragon.pdf",
      tags: ["dragon", "cozy"]
-   }
+   },
    ```
 
-5. Make sure every entry except the last one has a comma after it.
+5. Make sure every entry except the last one has a trailing comma.
 
 6. Commit and push the change. GitHub Pages will redeploy automatically.
 

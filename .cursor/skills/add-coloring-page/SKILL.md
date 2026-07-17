@@ -56,7 +56,7 @@ magick identify "images/<slug>.png"
 
 ### 3. Register in the gallery
 
-Edit `assets/js/coloring-pages.js`. Append a new object to `window.COLORING_PAGES` (comma after the previous last entry):
+Edit `assets/js/coloring-pages.js`. **Prepend** the new object at the **start** of `window.COLORING_PAGES` so it appears left-most in the gallery (newest first).
 
 ```js
 {
@@ -65,12 +65,14 @@ Edit `assets/js/coloring-pages.js`. Append a new object to `window.COLORING_PAGE
   thumbnail: "images/<slug>.png",
   pdf: "pdfs/<slug>.pdf",
   tags: ["tag1", "tag2"]
-}
+},
 ```
 
+- Put the new entry before the existing first item; keep a trailing comma after it.
 - Derive `title` from the slug unless the user provides one.
-- Keep `description` short and family-friendly.
+- Keep `description` short and family-friendly (still stored; not rendered in the gallery UI).
 - Prefer 1–2 simple tags (e.g. `["sunflower", "nature"]`).
+
 
 ### 4. Commit behavior
 
