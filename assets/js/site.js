@@ -18,7 +18,6 @@
 
   gallery.innerHTML = pages.map((page) => {
     const title = escapeHtml(page.title || "Untitled coloring page");
-    const description = escapeHtml(page.description || "Printable coloring page");
     const thumbnail = escapeAttribute(page.thumbnail || "");
     const pdf = escapeAttribute(page.pdf || "#");
     const tags = Array.isArray(page.tags) ? page.tags : [];
@@ -31,7 +30,6 @@
         </div>
         <div class="gallery-info">
           <h3>${title}</h3>
-          <p>${description}</p>
           <div class="gallery-meta" aria-label="Tags">
             ${tags.map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}
           </div>

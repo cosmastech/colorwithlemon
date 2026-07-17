@@ -26,5 +26,12 @@ window.COLORING_PAGES = [
     thumbnail: "images/sunflower-with-background.png",
     pdf: "pdfs/sunflower-with-background.pdf",
     tags: ["sunflower", "nature"]
+  },
+  {
+    title: "Summerween",
+    description: "A beachy Halloween cat scene with palm trees, a cauldron, and a jack-o'-lantern.",
+    thumbnail: "images/summerween.png",
+    pdf: "pdfs/summerween.pdf",
+    tags: ["halloween", "summer"]
   }
 ];
