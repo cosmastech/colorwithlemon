@@ -34,7 +34,7 @@ There is no build step. GitHub Pages can serve this directly from the repo root.
 
 3. Open `assets/js/coloring-pages.js`.
 
-4. Copy one existing entry and **paste it at the top of the list** (newest pages show left-most).
+4. Copy one existing entry and **paste it at the top of the list** (the newest page is featured at the top).
 
    Example:
 
