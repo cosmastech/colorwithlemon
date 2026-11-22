@@ -1,4 +1,4 @@
-// Newest pages first — left-most in the gallery.
+// Newest pages first — the first entry is the featured page.
 window.COLORING_PAGES = [
   {
     title: "Flower Coloring Page",

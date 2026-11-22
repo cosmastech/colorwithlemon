@@ -56,7 +56,7 @@ magick identify "images/<slug>.png"
 
 ### 3. Register in the gallery
 
-Edit `assets/js/coloring-pages.js`. **Prepend** the new object at the **start** of `window.COLORING_PAGES` so it appears left-most in the gallery (newest first).
+Edit `assets/js/coloring-pages.js`. **Prepend** the new object at the **start** of `window.COLORING_PAGES` so it becomes the featured page at the top (newest first).
 
 ```js
 {
