@@ -82,14 +82,6 @@ a:focus-visible {
   border-bottom: 3px solid var(--ink);
 }
 
-.masthead::after {
-  content: "";
-  display: block;
-  height: 1px;
-  margin-top: 4px;
-  background: var(--ink);
-}
-
 .brand {
   display: inline-flex;
   align-items: center;
