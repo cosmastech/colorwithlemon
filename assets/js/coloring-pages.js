@@ -1,6 +1,13 @@
 // Newest pages first — left-most in the gallery.
 window.COLORING_PAGES = [
   {
+    title: "Flower Coloring Page",
+    description: "A detailed flower framed by leaves and stained-glass-inspired patterns.",
+    thumbnail: "images/flower-coloring-page.png",
+    pdf: "pdfs/flower-coloring-page.pdf",
+    tags: ["flower", "nature"]
+  },
+  {
     title: "Summerween",
     description: "A beachy Halloween cat scene with palm trees, a cauldron, and a jack-o'-lantern.",
     thumbnail: "images/summerween.png",
